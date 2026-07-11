@@ -3,7 +3,7 @@
 
 This repository collects the theorems proven during **Operación Glotón**, an attempt to beat the densest known sphere packing in dimension 128 — the Mordell–Weil lattice **MW128** of Elkies, unbeaten since 2001 (centre density `δ = 2⁹⁷·⁴⁰`). The attempt works entirely inside one highly symmetric object: `V(4,4)-prim`, the primitive middle-cohomology lattice of the Fermat quartic fourfold `x₀⁴ + ··· + x₅⁴ = 0` — positive definite, even, **rank 141**, **determinant 2¹²⁸**. The target is a rank-128 sublattice dense enough to give `δ ≥ 2⁹⁸·⁴⁴`.
 
-**The record is open.** The work fully controls one half of the problem — the *price*, a `2`-adic quantity understood down to a proven floor — and runs into a precise, identified wall on the other half — the lattice *minimum*, an archimedean condition that no structural invariant determines. That wall is mapped exactly in **[THE_OPEN_PROBLEM.md](THE_OPEN_PROBLEM.md)**.
+**The record is open.** The work fully controls one half of the problem — the *price*, a `2`-adic quantity understood down to a proven floor — and runs into a precise, identified wall on the other half — the lattice *minimum*, an archimedean condition that no structural invariant determines. That wall is now mapped in closed form: the norm-12 vectors obstructing the minimum are classified, counted, and their symmetric attack routes are sealed with certificates — yet the minimum itself remains archimedean and open. The full accounting is in **[THE_OPEN_PROBLEM.md](THE_OPEN_PROBLEM.md)**.
 
 Independent of the record, what this repository offers is the rigorous structural mathematics the attempt produced: a connected body of theorems about `V(4,4)-prim`, each established in exact integer (or Gaussian-integer) arithmetic on a single 8 GB laptop and independently re-checkable. The keystone is the **Bridge Theorem** — the identity proving that the lattice's arithmetic (Hodge) norm and its geometric intersection form are one and the same. Several of these results are of interest beyond the packing problem.
 
@@ -64,7 +64,7 @@ These are the results original to this work, all about `V(4,4)-prim`, all byte-e
 
 ## Status, in one line
 
-The price side is solved (a cut at price `2⁷·⁹⁰⁶⁹ < 2⁸·⁰⁸` exists, byte-exact); the minimum side (`min ≥ 24`) is archimedean and **open**. Full accounting: **[THE_OPEN_PROBLEM.md](THE_OPEN_PROBLEM.md)**.
+The price side is solved (a cut at price `2⁷·⁹⁰⁶⁹ < 2⁸·⁰⁸` exists, byte-exact); the minimum side (`min ≥ 24`) is archimedean and **open**. The obstruction to the minimum — the norm-12 wall — is now understood as an object: classified in closed form, censused exactly, and its most symmetric attack routes sealed with certificates; the minimum itself nonetheless remains archimedean, decided only by exact computation, not by any structural invariant. Full accounting: **[THE_OPEN_PROBLEM.md](THE_OPEN_PROBLEM.md)**.
 
 ## Discipline
 
